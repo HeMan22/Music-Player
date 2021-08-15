@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Assistant', sans-serif;
+}
+
+body{
+    /* background-image: linear-gradient(darkblue); */
+    background-color: rgb(9, 19, 40, 1);
+    width: 100vw;
+    height: auto;
+    color: rgb(179, 178, 178);
+    /* overflow-x: hidden; */
+}
+
+h2{
+    color: white;
+}
+main{
+    width: 60vw;
+    display: inline-block;
+    margin-left: 7%;
+    /* margin-right: .5%; */
+    /* border: 2px solid white; */
+    height: auto;
+    /* position: relative; */
+}
+
+
+
+#artist-description{
+    width: 100%;
+    height: 35vh;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2% 0 2% 0;
+    background-color: rgb(24, 32, 78);
+}
+#artist-image{
+    height: 100%;
+    width: 50vw;
+    opacity: 0.8;
+    
+}
+#artist-image img{
+    width: 100%;
+    height: 100%;
+}
+#artist-details{
+    display: flex;
+    flex-direction: column;
+    padding-left: 2%;
+}
+#artist-name{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+aside {
+    display: inline-block;
+    color:white;
+    vertical-align: top;
+    margin-left: 1vw;
+    width: 25vw;
+    /* border: 1px solid white; */
+    height: auto;
+    position: absolute;
+}
+
+#artist-songs{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    /* justify-content: space-evenly; */
+
+}
+.song-list{
+    width: 100%;
+    height: 70px;
+    margin-bottom: 2%;
+    /*padding-left: 2px; */
+    /* border: 2px solid white; */
+    /* vertical-align: middle; */
+    /* overflow-y: hidden; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(33, 47, 82);    
+}
+.song{
+    display: flex;
+    margin-left: 4%;
+}
+.song>div{
+    display: inline-block;
+}
+.song-list:hover,
+.top-div:hover
+{
+    box-shadow: 10px 10px 20px #050c11, -10px -10px 20px  rgb(11, 25, 54);
+    transform: scale(1.03);
+}
+.song-list >div{
+    display: inline-block;
+
+}
+.song-number{
+    
+    vertical-align: middle;
+    color: rgb(180, 179, 179);
+    font-size: small;
+    /* border: 2px solid white; */
+}
+/* .song-image{
+    border: 2px solid white;
+} */
+.song-image img{
+    width: 3vw;
+    height: 50%;
+    vertical-align: middle;
+    margin: 9px;
+    box-shadow: 0px 0px 15px -7px rgba(248, 246, 246, 0.836);
+}
+
+.song-details{
+    vertical-align: middle;
+}
+.song-name{
+    font-size: 1rem;
+    display: block;
+    color: white;
+}
+.song-singer{
+    font-size: .8rem;
+    color: grey;
+}
+.heart{
+    /* float: right;
+    margin-top: 4%; */
+    margin-right: 4%;
+}
