@@ -169,6 +169,7 @@ aside {
   height: 40%;
   margin-right: 10%;
   display: flex;
+  justify-content: space-between;
 }
 
 .song-cover {
